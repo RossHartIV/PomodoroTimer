@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import classNames from "../utils/class-names";
 import useInterval from "../utils/useInterval";
 import {minutesToDuration, secondsToDuration} from "../utils/duration"
-import ProgressBar from "./ProgressBar";
-import DisableButton from "./DisableButton";
-import ShowSubtitle from "./ShowSubtitle";
-import ChangeDurations from "./ChangeDurations";
+import ProgressBar from "./components/ProgressBar";
+import DisableButton from "./components/DisableButton";
+import ShowSubtitle from "./components/ShowSubtitle";
+import ChangeDurations from "./components/ChangeDurations";
 
 // These functions are defined outside of the component to insure they do not have access to state
 // and are, therefore more likely to be pure.

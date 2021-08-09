@@ -1,5 +1,5 @@
 import React from "react";
-import {minutesToDuration, secondsToDuration} from "../utils/duration"
+import {minutesToDuration, secondsToDuration} from "../../utils/duration"
 
 export default function ShowSubtitle({session, focusDuration, breakDuration}) {
     // To solve this, I just wrapped the whole thing in an conditional checking

@@ -1,5 +1,5 @@
 import React from "react";
-import {minutesToDuration} from "../utils/duration"
+import {minutesToDuration} from "../../utils/duration"
 
 export default function ChangeDurations({ focusDuration, breakDuration, session, setFocusDuration, setBreakDuration }) {
     // This will handle the increment/decrement buttons for both the focuses and breaks
